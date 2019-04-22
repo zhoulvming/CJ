@@ -1,0 +1,10 @@
+<view class="page">
+
+  <navigator url="../pt-index/index?brand={{brand}}&channelId={{channelId}}">拼团首页</navigator>
+
+</view>
+
+
+<view style="margin-top: 100rpx;">
+  <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button>
+</view>
